@@ -25,7 +25,10 @@ function Todo() {
       <p>Total Todos: {todos.length}</p>
       <ul>
         {todos.map(todo => (
-        <li><span>{todo.todo}</span><span>{todo.completed}</span></li>
+        <li>
+            <span>{todo.todo}</span> <br/>
+            <span>{todo.completed? "yes completed": "not completed"}</span>
+        </li>
 
       ))}</ul>
     </div>
