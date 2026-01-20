@@ -9,3 +9,7 @@ function Todo() {
 }
 
 export default Todo
+
+
+
+// state:(its like a variable) page didnot reload
