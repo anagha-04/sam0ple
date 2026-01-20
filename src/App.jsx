@@ -9,10 +9,6 @@ function App() {
   return (
    <>
      <Todo>
-         <div>
-           <h1>TODO LIST</h1>
-           
-          </div>
       </Todo>
     </>
   )
