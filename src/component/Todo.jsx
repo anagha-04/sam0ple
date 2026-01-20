@@ -23,10 +23,11 @@ function Todo() {
     <div>
       <h1>Todo List</h1>
       <p>Total Todos: {todos.length}</p>
-      <ul>{todos.map(todo => {
+      <ul>
+        {todos.map(todo => (
         <li><span>{todo.todo}</span><span>{todo.completed}</span></li>
 
-      })}</ul>
+      ))}</ul>
     </div>
   )
 }
